@@ -1,0 +1,133 @@
+.mainss{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    
+    width: 85vw;
+    
+}
+.gemini{
+    width: 20vw;
+    padding: 1vh 2vh;
+}
+.header{
+    height: 19vh;
+    
+}
+.footer{
+    height: 10vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(198, 195, 195);
+    border-radius: 20px;
+    
+}
+
+.form input{
+    width: 80vw;
+    height: 7vh;
+    padding: 0.5vh 2vh;
+    font-size: 2vw;
+    background-color: rgb(198, 195, 195);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+}
+.footer{
+    
+    display: flex;
+    justify-content: center;
+}
+.form img{
+    padding: 0 1vh;
+}
+.hero{
+    
+    height: 71vh
+}
+.display{
+    background-color: aqua;
+    width: 50vw;
+    height: 20vw;
+}
+.display img{
+    height: 20vw;
+}
+.prompt{
+    background-color: azure;
+    width: 50vw;
+    display: flex;
+    padding: 1vh 2vh;
+    align-items: center;
+    
+}
+.prompt img{
+    height: 5vw;
+    width: 5vw;
+}
+.prompt span{
+    margin-left: 2vh;
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+.promp{
+    background-color: aqua;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.user{
+    background-color:azure;
+    padding-left: 2vw;
+}
+.result{
+    background-color: brown;
+    text-align: right;
+    padding-right: 2vw;
+}
+.sexy{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    overflow-y: scroll;
+}
+.ass{
+    overflow-y: scroll;
+    height: 50vh;
+    padding: 1vh 2vh;
+    background-color: rgb(194, 204, 204);
+}
+.chats{
+    
+    overflow-y: scroll;
+    width: 70vw;
+    height: 70vh;
+}
+.assistant{
+    padding: 1vh 2vh;
+    background-color: rgb(194, 204, 204);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#user{
+    background-color:azure;
+    padding-left: 2vw;
+}
+#assistant{
+    padding: 1vh 2vh;
+    background-color: rgb(194, 204, 204);
+}
