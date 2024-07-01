@@ -17,7 +17,7 @@ app.use(cors({
     origin: "http://localhost:5173"
 }))
 const { GoogleGenerativeAI } = require("@google/generative-ai")
-const genAi = new GoogleGenerativeAI("AIzaSyCuAGJwIw2lALABbH-P68Qn1a4xkAL4syI")
+const genAi = new GoogleGenerativeAI("API_KEY")
 async function run(req, res) {
     const model = genAi.getGenerativeModel({ model: "gemini-pro" })
     const prompt = req?.body?.prompt;
