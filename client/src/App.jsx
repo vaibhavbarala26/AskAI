@@ -72,7 +72,7 @@ else{
     <div className="mainss">
     
     <div className="gemini">
-      <h1>gemini</h1>
+      <h1>AskAI</h1>
     </div>
     <div className="content">
       <div className="header">
